@@ -16,6 +16,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      {/* this is nav  */}
       <nav className='bg-emerald-400'>
         <p className='text-white text-center py-2'>Todo application</p>
       </nav>

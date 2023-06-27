@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 const Block1 = () => {
+  // state setup
     const [todosArray, settodosArray] = useState([]);
   const [newTodo, setNewTodo] = useState('');
 
@@ -8,6 +9,7 @@ const Block1 = () => {
     setNewTodo(e.target.value);
   };
 
+  // all functions and events handler
   const handleFormSubmit = (e) => {
     e.preventDefault();
     if (newTodo.trim() !== '') {
